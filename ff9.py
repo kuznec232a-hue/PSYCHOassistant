@@ -12,7 +12,6 @@ from openai import OpenAI
 # 0. СЕКРЕТНЫЕ НАСТРОЙКИ
 # ==========================================
 import os
-API_KEY = ""
 DB_FILE = "session_database.json"
 # ==========================================
 # 1. КОНФИГУРАЦИЯ И ДИЗАЙН
@@ -378,3 +377,4 @@ with col_dash:
         use_container_width=True
 
     )
+
