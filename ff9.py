@@ -137,7 +137,7 @@ class MathEngine:
 
 
 # ==========================================
-# 4. АРХИТЕКТУРНОЕ ЯДРО (DEEPSEEK)
+# 4. АРХИТЕКТУРНОЕ ЯДРО
 # ==========================================
 class NeuralCore:
     def __init__(self):
@@ -385,6 +385,7 @@ with col_dash:
         use_container_width=True
 
     )
+
 
 
 
