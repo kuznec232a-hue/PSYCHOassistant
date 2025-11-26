@@ -123,7 +123,7 @@ class MathEngine:
         if delta > 0:
             max_step = 0.25  # Позволяем рост до +0.25
         else:
-            max_step = 0.15  # Падение ограничиваем жестче (-0.15)
+            max_step = 0.3  # Падение ограничиваем жестче (-0.15)
 
         # Ограничиваем изменение
         if delta > max_step: delta = max_step
@@ -385,6 +385,7 @@ with col_dash:
         use_container_width=True
 
     )
+
 
 
 
