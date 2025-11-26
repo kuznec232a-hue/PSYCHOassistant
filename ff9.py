@@ -12,6 +12,14 @@ from openai import OpenAI
 # 0. СЕКРЕТНЫЕ НАСТРОЙКИ
 # ==========================================
 import os
+
+# --- ВСТАВЬТЕ ЭТОТ БЛОК ---
+try:
+    API_KEY = st.secrets["API_KEY"]
+except:
+    API_KEY = None
+# ---------------------------
+
 DB_FILE = "session_database.json"
 # ==========================================
 # 1. КОНФИГУРАЦИЯ И ДИЗАЙН
@@ -377,4 +385,5 @@ with col_dash:
         use_container_width=True
 
     )
+
 
