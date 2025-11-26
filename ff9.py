@@ -12,7 +12,7 @@ from openai import OpenAI
 # 0. СЕКРЕТНЫЕ НАСТРОЙКИ
 # ==========================================
 import os
-API_KEY = "sk-or-vv-7d8a530b6e0891ae05e3a83a89b6137f1d9131aa0e3908a71c39aae7193c6dfd"
+API_KEY = ""
 DB_FILE = "session_database.json"
 # ==========================================
 # 1. КОНФИГУРАЦИЯ И ДИЗАЙН
@@ -376,4 +376,5 @@ with col_dash:
         file_name=f"report.txt",
         mime="text/plain",
         use_container_width=True
+
     )
