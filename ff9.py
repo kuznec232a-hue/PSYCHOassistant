@@ -145,7 +145,7 @@ class NeuralCore:
         self.client = OpenAI(api_key=API_KEY, base_url=self.base_url) if API_KEY else None
 
         self.system_prompt = """
-        Ты — Ассистент психолог для выявления. Веди теплый диалог (КПТ). 
+        Ты — Ассистент психолог для выявления негативных паттернов поведения человека. Веди теплый диалог (КПТ).
 
         ОБЯЗАТЕЛЬНО В КАЖДОМ ОТВЕТЕ ПИШИ JSON:
         <analysis>
@@ -385,6 +385,7 @@ with col_dash:
         use_container_width=True
 
     )
+
 
 
 
